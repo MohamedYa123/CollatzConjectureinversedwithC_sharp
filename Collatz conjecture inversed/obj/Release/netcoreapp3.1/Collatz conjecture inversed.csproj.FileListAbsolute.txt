@@ -1,0 +1,16 @@
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\bin\Release\netcoreapp3.1\Collatz conjecture inversed.exe
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\bin\Release\netcoreapp3.1\Collatz conjecture inversed.deps.json
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\bin\Release\netcoreapp3.1\Collatz conjecture inversed.runtimeconfig.json
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\bin\Release\netcoreapp3.1\Collatz conjecture inversed.runtimeconfig.dev.json
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\bin\Release\netcoreapp3.1\Collatz conjecture inversed.dll
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\bin\Release\netcoreapp3.1\Collatz conjecture inversed.pdb
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz_conjecture_inversed.Form1.resources
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz_conjecture_inversed.Form2.resources
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz conjecture inversed.csproj.GenerateResource.cache
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz conjecture inversed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz conjecture inversed.AssemblyInfoInputs.cache
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz conjecture inversed.AssemblyInfo.cs
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz conjecture inversed.csproj.CoreCompileInputs.cache
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz conjecture inversed.dll
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz conjecture inversed.pdb
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Release\netcoreapp3.1\Collatz conjecture inversed.genruntimeconfig.cache
