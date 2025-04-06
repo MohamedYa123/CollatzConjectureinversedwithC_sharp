@@ -14,3 +14,5 @@ C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inver
 C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Debug\netcoreapp3.1\Collatz conjecture inversed.pdb
 C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Debug\netcoreapp3.1\Collatz conjecture inversed.genruntimeconfig.cache
 C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Debug\netcoreapp3.1\Collatz_conjecture_inversed.Form2.resources
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Debug\netcoreapp3.1\Collatz_conjecture_inversed.Encode.resources
+C:\Users\tecyo\source\repos\Collatz conjecture inversed\Collatz conjecture inversed\obj\Debug\netcoreapp3.1\Collatz conjecture inversed.sourcelink.json

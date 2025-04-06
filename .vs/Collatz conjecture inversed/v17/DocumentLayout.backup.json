@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|c:\\users\\tecyo\\source\\repos\\collatz conjecture inversed\\collatz conjecture inversed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|solutionrelative:collatz conjecture inversed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\collatz conjecture inversed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|solutionrelative:collatz conjecture inversed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|c:\\users\\tecyo\\source\\repos\\collatz conjecture inversed\\collatz conjecture inversed\\collatzagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|solutionrelative:collatz conjecture inversed\\collatzagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|c:\\users\\tecyo\\source\\repos\\collatz conjecture inversed\\collatz conjecture inversed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|solutionrelative:collatz conjecture inversed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|c:\\users\\tecyo\\source\\repos\\collatz conjecture inversed\\collatz conjecture inversed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|solutionrelative:collatz conjecture inversed\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|c:\\users\\tecyo\\source\\repos\\collatz conjecture inversed\\collatz conjecture inversed\\encode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|solutionrelative:collatz conjecture inversed\\encode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|c:\\users\\tecyo\\source\\repos\\collatz conjecture inversed\\collatz conjecture inversed\\encode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{531E0B5C-5B68-41FB-A2CB-1C2ADDD0710A}|Collatz conjecture inversed\\Collatz conjecture inversed.csproj|solutionrelative:collatz conjecture inversed\\encode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Encode.cs",
+              "DocumentMoniker": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\Collatz conjecture inversed\\Encode.cs",
+              "RelativeDocumentMoniker": "Collatz conjecture inversed\\Encode.cs",
+              "ToolTip": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\Collatz conjecture inversed\\Encode.cs",
+              "RelativeToolTip": "Collatz conjecture inversed\\Encode.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwC4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:43:33.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Encode.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\Collatz conjecture inversed\\Encode.cs",
+              "RelativeDocumentMoniker": "Collatz conjecture inversed\\Encode.cs",
+              "ToolTip": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\Collatz conjecture inversed\\Encode.cs [Design]",
+              "RelativeToolTip": "Collatz conjecture inversed\\Encode.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:18:28.358Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,27 +65,27 @@
               "RelativeDocumentMoniker": "Collatz conjecture inversed\\CollatzAgent.cs",
               "ToolTip": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\Collatz conjecture inversed\\CollatzAgent.cs",
               "RelativeToolTip": "Collatz conjecture inversed\\CollatzAgent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwEsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T17:04:29.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\Collatz conjecture inversed\\Form1.cs",
               "RelativeDocumentMoniker": "Collatz conjecture inversed\\Form1.cs",
               "ToolTip": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\Collatz conjecture inversed\\Form1.cs",
               "RelativeToolTip": "Collatz conjecture inversed\\Form1.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAWwGIAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T17:02:19.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tecyo\\source\\repos\\Collatz conjecture inversed\\Collatz conjecture inversed\\Form1.cs",
               "RelativeDocumentMoniker": "Collatz conjecture inversed\\Form1.cs",

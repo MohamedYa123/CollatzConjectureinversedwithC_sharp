@@ -96,7 +96,7 @@ namespace Collatz_conjecture_inversed
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            BigInteger big = BigInteger.Parse(richTextBox1.Text.Replace("\r", "").Replace("\n",""));
+            BigInteger big = BigInteger.Parse(richTextBox1.Text.Replace("\r", "").Replace("\n", ""));
             int ns = 0;
             while (big > 0)
             {
@@ -141,6 +141,12 @@ namespace Collatz_conjecture_inversed
             Form2 form2 = new Form2();
             form2.ShowDialog();
             //MessageBox.Show("This App is Built by: Mohamed yasser\r\nEmail:mohamedyasser112025@gmail.com");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Encode encode = new Encode();
+            encode.ShowDialog();
         }
     }
 }

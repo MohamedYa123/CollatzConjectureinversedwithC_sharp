@@ -7,6 +7,124 @@ namespace Collatz_conjecture_inversed
 {
     public static class CollatzAgent
     {
+        public static (BigInteger,int) ConvertBytesTonumber(byte[] bytes)
+        {
+            int patternlength = 0;
+            byte[] bts = new byte[4];
+            for (int i = 0; i < 4; i++)
+            {
+                bts[i] = bytes[i];
+            }
+            
+            byte[] otherbytes = new byte[bytes.Length - 4];
+            for(int j = 4; j < bytes.Length; j++)
+            {
+                otherbytes[j - 4] = bytes[j];
+            }
+            patternlength= BitConverter.ToInt32(bytes, 0);
+            BigInteger bc = new BigInteger(otherbytes);
+            return (bc, patternlength);
+        }
+        public static byte[] ConvertpatternintoBytes(List<int> pattern,int inversed)
+        {
+            int sum = 0;
+            for(int i = 0; i < pattern.Count; i++)
+            {
+                sum += pattern[i];
+            }
+            sum /= 8;
+            int bytwhere = 0;
+            int indexofbyte = 0;
+            byte[] bytes = new byte[sum];
+            int byten = 0;
+            int with = 1;
+            int with2 = 0;
+            if (inversed < 0)
+            {
+                with = 0;
+                with2 = 1;
+            }
+            for (int i = 0; i < pattern.Count; i++)
+            {
+                var pi = pattern[i];
+                
+                while (pi > 0)
+                {
+                    byten = byten << 1;
+                    if (i % 2 == 1)
+                    {
+                        byten |= with;
+                    }
+                    else
+                    {
+                        byten |= with2;
+                    }
+                    pi--;
+                    indexofbyte++;
+                    if (indexofbyte == 8)
+                    {
+                        bytes[bytwhere] = (byte)byten;
+                        indexofbyte =0;
+                        byten = 0;
+                        bytwhere++;
+                    }
+                    
+                    
+                }
+            }
+            //bytes[bytwhere] = (byte)byten;
+            return bytes;
+        }
+        public static (List<int>,int) ConvertBytestoPattern(byte[] bytes)
+        {
+            List<int> Pattern = new List<int>();
+            int lastturn = 0;
+            int inversed = -1;
+            int newnum = 0;
+            for (int i = 0; i < bytes.Length; i++)
+            {
+                byte b = bytes[i];
+                for(int j = 7; j >=0; j--)
+                {
+                    int bu = (b >> j);
+                    int c = bu & 1;
+                    if (lastturn == 0 && c == 0)
+                    {
+                        inversed = 1;
+                    }
+                    if (lastturn >= 0 && c > 0)
+                    {
+                        //if (newnum == 0)
+                        {
+                            lastturn += 1;
+                        }
+                    }
+                    else if (c>0)
+                    {
+                        Pattern.Add(lastturn*-1);
+                        lastturn = 1;
+                        newnum = 1;
+                        continue;
+                    }
+                    if (lastturn <= 0 && c == 0)
+                    {
+                       // if (newnum == 0)
+                        {
+                            lastturn -= 1;
+                        }
+                    }
+                    else if (c == 0)
+                    {
+                        Pattern.Add(lastturn);
+                        lastturn = -1;
+                        newnum = 1;
+                        continue;
+                    }
+                }
+            }
+            Pattern.Add(Math.Abs(lastturn));
+            return (Pattern,inversed);
+        }
         //Code written by Mohamed Yasser //
         //Email: mohamedyasser112025@gmail.com//
         public static List<int> ExtractPattern(BigInteger num,int G,int Patternlength,bool breakinsmaller=false)
@@ -136,6 +254,7 @@ namespace Collatz_conjecture_inversed
             }
             return adds;
         }
+        public static int patternreached = 0;
         public static BigInteger FindNumberFromPattern(int G,List<int>Pattern)
         {
             BigInteger num = -G;
@@ -160,6 +279,7 @@ namespace Collatz_conjecture_inversed
                 BigInteger adds = 0;
                 for (int i = stindex; i < Pattern.Count; i++)
                 {
+                    patternreached = stindex;
                     int p = Pattern[i];
                     if (PatternVerified[i] == 1)
                     {
@@ -213,6 +333,7 @@ namespace Collatz_conjecture_inversed
                     lastverifiednumt += 2 * adds * BigInteger.Pow(3, np);
                 }
             }
+            patternreached = stindex;
             return num;
         }
     }

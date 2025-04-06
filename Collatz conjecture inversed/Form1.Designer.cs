@@ -43,6 +43,7 @@
             label5 = new System.Windows.Forms.Label();
             checkBox1 = new System.Windows.Forms.CheckBox();
             button4 = new System.Windows.Forms.Button();
+            button5 = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // listBox1
@@ -188,11 +189,22 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // button5
+            // 
+            button5.Location = new System.Drawing.Point(788, 694);
+            button5.Name = "button5";
+            button5.Size = new System.Drawing.Size(155, 29);
+            button5.TabIndex = 15;
+            button5.Text = "Encode a file";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(1060, 729);
+            Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(checkBox1);
             Controls.Add(label5);
@@ -233,5 +245,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

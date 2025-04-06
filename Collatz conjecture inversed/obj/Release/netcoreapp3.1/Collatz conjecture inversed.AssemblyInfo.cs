@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Collatz conjecture inversed")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e67edcfae804e4e5d8b48adb8fde64fe14af0997")]
 [assembly: System.Reflection.AssemblyProductAttribute("Collatz conjecture inversed")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Collatz conjecture inversed")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
